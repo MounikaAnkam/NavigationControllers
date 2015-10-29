@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  NavigationControllersInCode
 //
-//  Created by Michael Rogers on 2/23/15.
-//  Copyright (c) 2015 Michael Rogers. All rights reserved.
+//  Created by Mounika Ankam on 2/23/15.
+//  Copyright (c) 2015 Mounika Ankam. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        
+//        // First make the ViewController that will be initially visible in the NavigationController
+//        // We call this the UINavigationController's root view controller
+//        var airlinesTVC:AirlinesTableViewController = AirlinesTableViewController()
+//        
+//        // Then make the UINavigationController
+//        var navCon:UINavigationController = UINavigationController(rootViewController:airlinesTVC)
+//        
+//        // Finally do the housekeeping so that the navigation controller (navCon) becomes visible and ready to work
+//        self.window?.rootViewController = navCon
+//        
+//        self.window?.makeKeyAndVisible()
+//        
+//        // Now go and read the AirlinesTableViewController.swift file ...
         return true
     }
 

@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124EAD381A9F78F500D7CE06 /* AddNewAirlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124EAD371A9F78F500D7CE06 /* AddNewAirlineViewController.swift */; };
+		124EAD3A1A9F79FD00D7CE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124EAD391A9F79FD00D7CE06 /* Main.storyboard */; };
 		127FE38B1A9C161B0017D6C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FE38A1A9C161B0017D6C7 /* AppDelegate.swift */; };
-		127FE38D1A9C161B0017D6C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FE38C1A9C161B0017D6C7 /* ViewController.swift */; };
-		127FE3901A9C161B0017D6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127FE38E1A9C161B0017D6C7 /* Main.storyboard */; };
 		127FE3921A9C161B0017D6C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127FE3911A9C161B0017D6C7 /* Images.xcassets */; };
 		127FE3951A9C161B0017D6C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127FE3931A9C161B0017D6C7 /* LaunchScreen.xib */; };
 		127FE3A11A9C161B0017D6C7 /* NavigationControllersInCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FE3A01A9C161B0017D6C7 /* NavigationControllersInCodeTests.swift */; };
+		127FE3AB1A9C167C0017D6C7 /* AirlinesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FE3AA1A9C167C0017D6C7 /* AirlinesTableViewController.swift */; };
+		127FE3AD1A9C17230017D6C7 /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FE3AC1A9C17230017D6C7 /* Airline.swift */; };
+		127FE3AF1A9C18DA0017D6C7 /* AirlineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127FE3AE1A9C18DA0017D6C7 /* AirlineCell.xib */; };
+		127FE3B11A9C1A5D0017D6C7 /* City.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127FE3B01A9C1A5D0017D6C7 /* City.xib */; };
+		127FE3B31A9C1A920017D6C7 /* CitiesFlownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FE3B21A9C1A920017D6C7 /* CitiesFlownTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124EAD371A9F78F500D7CE06 /* AddNewAirlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAirlineViewController.swift; sourceTree = "<group>"; };
+		124EAD391A9F79FD00D7CE06 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		127FE3851A9C161B0017D6C7 /* NavigationControllersInCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllersInCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127FE3891A9C161B0017D6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		127FE38A1A9C161B0017D6C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		127FE38C1A9C161B0017D6C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		127FE38F1A9C161B0017D6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		127FE3911A9C161B0017D6C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		127FE3941A9C161B0017D6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		127FE39A1A9C161B0017D6C7 /* NavigationControllersInCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllersInCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		127FE39F1A9C161B0017D6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		127FE3A01A9C161B0017D6C7 /* NavigationControllersInCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllersInCodeTests.swift; sourceTree = "<group>"; };
+		127FE3AA1A9C167C0017D6C7 /* AirlinesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlinesTableViewController.swift; sourceTree = "<group>"; };
+		127FE3AC1A9C17230017D6C7 /* Airline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		127FE3AE1A9C18DA0017D6C7 /* AirlineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AirlineCell.xib; path = ../AirlineCell.xib; sourceTree = "<group>"; };
+		127FE3B01A9C1A5D0017D6C7 /* City.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = City.xib; sourceTree = "<group>"; };
+		127FE3B21A9C1A920017D6C7 /* CitiesFlownTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesFlownTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		127FE37C1A9C161B0017D6C7 = {
 			isa = PBXGroup;
 			children = (
+				124EAD391A9F79FD00D7CE06 /* Main.storyboard */,
 				127FE3871A9C161B0017D6C7 /* NavigationControllersInCode */,
 				127FE39D1A9C161B0017D6C7 /* NavigationControllersInCodeTests */,
 				127FE3861A9C161B0017D6C7 /* Products */,
@@ -77,9 +88,13 @@
 		127FE3871A9C161B0017D6C7 /* NavigationControllersInCode */ = {
 			isa = PBXGroup;
 			children = (
+				127FE3AE1A9C18DA0017D6C7 /* AirlineCell.xib */,
+				127FE3B01A9C1A5D0017D6C7 /* City.xib */,
 				127FE38A1A9C161B0017D6C7 /* AppDelegate.swift */,
-				127FE38C1A9C161B0017D6C7 /* ViewController.swift */,
-				127FE38E1A9C161B0017D6C7 /* Main.storyboard */,
+				127FE3AC1A9C17230017D6C7 /* Airline.swift */,
+				127FE3AA1A9C167C0017D6C7 /* AirlinesTableViewController.swift */,
+				124EAD371A9F78F500D7CE06 /* AddNewAirlineViewController.swift */,
+				127FE3B21A9C1A920017D6C7 /* CitiesFlownTableViewController.swift */,
 				127FE3911A9C161B0017D6C7 /* Images.xcassets */,
 				127FE3931A9C161B0017D6C7 /* LaunchScreen.xib */,
 				127FE3881A9C161B0017D6C7 /* Supporting Files */,
@@ -192,9 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127FE3901A9C161B0017D6C7 /* Main.storyboard in Resources */,
 				127FE3951A9C161B0017D6C7 /* LaunchScreen.xib in Resources */,
+				124EAD3A1A9F79FD00D7CE06 /* Main.storyboard in Resources */,
 				127FE3921A9C161B0017D6C7 /* Images.xcassets in Resources */,
+				127FE3B11A9C1A5D0017D6C7 /* City.xib in Resources */,
+				127FE3AF1A9C18DA0017D6C7 /* AirlineCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127FE38D1A9C161B0017D6C7 /* ViewController.swift in Sources */,
+				127FE3AD1A9C17230017D6C7 /* Airline.swift in Sources */,
+				124EAD381A9F78F500D7CE06 /* AddNewAirlineViewController.swift in Sources */,
+				127FE3B31A9C1A920017D6C7 /* CitiesFlownTableViewController.swift in Sources */,
+				127FE3AB1A9C167C0017D6C7 /* AirlinesTableViewController.swift in Sources */,
 				127FE38B1A9C161B0017D6C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		127FE38E1A9C161B0017D6C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				127FE38F1A9C161B0017D6C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		127FE3931A9C161B0017D6C7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +417,7 @@
 				127FE3A61A9C161B0017D6C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		127FE3A71A9C161B0017D6C7 /* Build configuration list for PBXNativeTarget "NavigationControllersInCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				127FE3A91A9C161B0017D6C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
